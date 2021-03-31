@@ -1,0 +1,18 @@
+{
+  "name": "dcard",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "moment": "^2.29.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7",
+    "redis": "^3.0.2"
+  }
+}
